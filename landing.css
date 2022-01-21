@@ -1,0 +1,210 @@
+/* Navbar */
+.navbar-brand {
+  font-family: viga;
+  font-size: 20px;
+ 
+}
+
+/* jumbotron */
+.jumbotron {
+  background-image: url(dist/img/nurulfikri.jpg);
+  background-size: cover;
+  height: 540px;
+  text-align: center;
+}
+
+.jumbotron .display-4 {
+  color: rgb(7, 7, 7);
+  margin-top: 50px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  font-weight: 200;
+  font-size: 30px;
+}
+
+.section-header {
+  color: #fff;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 42px;
+  color: #333;
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.shot-item img {
+  width: 100%;
+}
+
+.shot-item {
+  border-radius: 4px;
+  background: #fff;
+  position: relative;
+}
+
+#beritaKampus .card {
+  width: 100%;
+}
+
+.section-header .lines {
+  margin: auto;
+  width: 70px;
+  position: relative;
+  border-top: 2px solid #0b63dc;
+}
+
+.section {
+  padding: 80px 0;
+  margin-top: -32px;
+}
+
+.profile-kampus {
+  background: rgba(172, 181, 219, 0.363);
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+.section-header .section-subtitle {
+  margin-top: 15px;
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.jumbotron .display-4 span {
+  font-weight: 500;
+}
+
+.jumbotron p {
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+  font-size: 15px;
+}
+
+.section-title {
+  font-size: 30px;
+}
+
+.social_contact .link-1 a {
+  color: #f48a3e;
+}
+
+.social_contact .link-2 a {
+  color: #f48a3e;
+}
+
+.footnote p {
+  margin-bottom: 2px;
+  color: #fff;
+}
+
+.footnote {
+  padding: 0 0 0 20px;
+}
+
+.social_contact i {
+  color: #fff;
+  font-size: 1.25em;
+  padding: 0 0 0 20px;
+}
+
+a.social {
+  background: #a9a9a9;
+  border-radius: 2px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  display: block;
+  line-height: 25px;
+  font-size: 1.25em;
+  height: 25px;
+  margin: 0 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  -webkit-text-decoration-style: solid;
+  text-decoration-style: solid;
+  -webkit-text-decoration-color: currentColor;
+  text-decoration-color: currentColor;
+  text-align: center;
+  text-decoration: none;
+  width: 25px;
+}
+
+.navbar-brand img {
+  width: 40px;
+  height: 40px;
+}
+
+.tombol {
+  text-transform: uppercase;
+  border-radius: 40px;
+}
+
+body {
+  height: 2000px;
+}
+/* VERSION DEKSTOP */
+@media (min-width: 992px) {
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  }
+
+  .navbar-brand,
+  .nav-link {
+    color: white !important;
+  }
+
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #0b63dc;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  .jumbotron {
+    margin-top: -105px;
+    height: 650px;
+  }
+
+  .jumbotron .display-4 {
+    font-size: 60px;
+    margin-top: 50px;
+  }
+
+  .jumbotron p {
+    font-size: 20px;
+    margin-top: 50px;
+  }
+
+  .section-title {
+    font-size: 40px;
+  }
+
+  .navbar-brand img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .navbar-brand {
+    font-size: 35px;
+  }
+}

@@ -1,0 +1,148 @@
+.navbar-brand {
+  font-family: viga;
+  font-size: 20px;
+}
+
+.navbar .judul {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.jumbotron {
+  background-image: url(dist/img/nurulfikri.jpg);
+  background-size: cover;
+  height: 940px;
+}
+
+.jumbotron .display-4 {
+  color: #fff;
+  margin-top: 50px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  font-weight: 200;
+  font-size: 30px;
+}
+
+footer {
+  margin-top: -32px;
+}
+
+.social_contact .link-1 a {
+  color: #f48a3e;
+}
+
+.social_contact .link-2 a {
+  color: #f48a3e;
+}
+
+.footnote p {
+  margin-bottom: 2px;
+  color: #fff;
+}
+
+.footnote {
+  padding: 0 0 0 20px;
+}
+
+.card {
+  margin-top: 50px;
+}
+
+.social_contact i {
+  color: #fff;
+  font-size: 1.25em;
+  padding: 0 0 0 20px;
+}
+
+.card-footer .cencel {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.card-footer .tombol {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+a.social {
+  background: #a9a9a9;
+  border-radius: 2px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  display: block;
+  line-height: 25px;
+  font-size: 1.25em;
+  height: 25px;
+  margin: 0 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  -webkit-text-decoration-style: solid;
+  text-decoration-style: solid;
+  -webkit-text-decoration-color: currentColor;
+  text-decoration-color: currentColor;
+  text-align: center;
+  text-decoration: none;
+  width: 25px;
+}
+
+.navbar-brand img {
+  width: 40px;
+  height: 40px;
+}
+
+.boton {
+  text-transform: uppercase;
+  border-radius: 40px;
+}
+
+/* VERSION DEKSTOP */
+@media (min-width: 992px) {
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  }
+
+  .navbar-brand,
+  .nav-link {
+    color: white !important;
+  }
+
+  .card {
+    margin-top: 100px;
+  }
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #0b63dc;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  .jumbotron {
+    margin-top: -105px;
+    height: 750px;
+  }
+
+  .jumbotron .display-4 {
+    font-size: 60px;
+    margin-top: 60px;
+  }
+
+  .navbar-brand img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .navbar-brand {
+    font-size: 35px;
+  }
+}
+
+/*# sourceMappingURL=regis.css.map */
